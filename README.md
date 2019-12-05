@@ -23,3 +23,36 @@ This data set (hereafter referred to as [Manga109](http://www.manga109.org/en/in
 3. Modify train.py and start training.  
    python train.py  
    Use your trained weights or checkpoint weights with command line option --model model_file when using yolo_video.py Remember to modify      class path or anchor path, with --classes class_file and --anchors anchor_file.
+
+4. Use compute_mAP to evaluate the model
+
+# Result on Manga109
+1. Two classes(face and text)
+   - Tested images
+   
+   ![image](https://github.com/Waahi/Yolov3_on_Manga109/blob/master/Result_and_Images/two%20classes/result_017.jpg)
+   ![image](https://github.com/Waahi/Yolov3_on_Manga109/blob/master/Result_and_Images/two%20classes/result_021.jpg)
+   
+   - Tested images with groundtruth
+     - green is the test result
+     - blue is the groundtruth
+     - red is unrecognized   
+     
+     ![image](https://github.com/Waahi/Yolov3_on_Manga109/blob/master/Result_and_Images/two%20classes/517.jpg)
+     ![image](https://github.com/Waahi/Yolov3_on_Manga109/blob/master/Result_and_Images/two%20classes/521.jpg)
+                                                                                                                         @KAORU KAWAKATA
+                                                                                                                          
+   - Face AP
+   
+   ![image](https://github.com/Waahi/Yolov3_on_Manga109/blob/master/Result_and_Images/two%20classes/face.png)
+   
+   - Text AP
+   
+   ![image](https://github.com/Waahi/Yolov3_on_Manga109/blob/master/Result_and_Images/two%20classes/text.png)
+   
+2. Four classes(face text frame body)
+   - mAP  
+   
+   ![image](https://github.com/Waahi/Yolov3_on_Manga109/blob/master/Result_and_Images/four%20classes/mAP.png)
+   
+   - [more details](https://github.com/Waahi/Yolov3_on_Manga109/tree/master/Result%20and%20Images/four%20classes)
