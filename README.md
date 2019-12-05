@@ -26,6 +26,11 @@ This data set (hereafter referred to as [Manga109](http://www.manga109.org/en/in
 
 4. Use compute_mAP to evaluate the model
 
+# Test Environment
+  -python 3.5.6
+  -Keras 2.1.5
+  -tensorflow 1.6.0
+
 # Result on Manga109
 1. Two classes(face and text)
    - Tested images
