@@ -41,7 +41,7 @@ This data set (hereafter referred to as [Manga109](http://www.manga109.org/en/in
    - Tested images with groundtruth
      - green is the test result
      - blue is the groundtruth
-     - red is unrecognized   
+     - red is missed   
      
      ![image](https://github.com/Waahi/Yolov3_on_Manga109/blob/master/Result_and_Images/two%20classes/517.jpg)
      ![image](https://github.com/Waahi/Yolov3_on_Manga109/blob/master/Result_and_Images/two%20classes/521.jpg)
