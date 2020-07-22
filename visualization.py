@@ -1,4 +1,5 @@
 from matplotlib import pyplot as plt
+import numpy as np
 
 history = history
 plt.plot()
@@ -16,8 +17,6 @@ plt.ylabel('loss')
 plt.xlabel('epoch')
 plt.legend(['train', 'test'], loc='upper left')
 plt.show()
-
-import numpy as np
 
 accy = history.history['acc']
 np_accy = np.array(accy)
