@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 from os import getcwd
 
+'''VOC'''
 sets=[('2007', 'train'), ('2007', 'val'), ('2007', 'test')]
 
 classes = ['text','face','body','frame']
