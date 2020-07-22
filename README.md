@@ -1,5 +1,5 @@
 # Intorduction
-This deep learning project is a first part of application, which can make the characters of balloons in Manga become big or small automatically when people read Manga by phone. In order to implement the application, we plan to use a deep learning model to recognize the parts in Manga like balloons, face and so on. We chosed Manga109 as the dataset and Yolov3 as the deep learning model.
+This a deep learning project is a first part of application, which can make the characters of balloons in Manga become big or small automatically when people read Manga by phone. In order to implement the application, we plan to use a deep learning model to recognize the parts in Manga like balloons, face and so on. We chosed Manga109 as the dataset and Yolov3 as the deep learning model.
 
 ### Yolov3
 A Keras implementation of YOLOv3 (Tensorflow backend) inspired by [allanzelener/YAD2K.](https://github.com/allanzelener/YAD2K)
