@@ -6,6 +6,7 @@ from yolo import YOLO
 from PIL import Image
 import tensorflow as tf
 
+'''detection'''
 if __name__ == '__main__':
     yolo = YOLO()
     path = 'the image path'
