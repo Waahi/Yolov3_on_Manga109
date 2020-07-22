@@ -3,6 +3,7 @@ from collections import defaultdict
 
 name_box_id = defaultdict(list)
 id_name = dict()
+'''path'''
 f = open(
     "mscoco2017/annotations/instances_train2017.json",
     encoding='utf-8')
