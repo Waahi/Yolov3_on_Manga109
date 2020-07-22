@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-test images by batches
+test images by batches, which you can set freely
 test result will be in outdir = "your path"
 """
 import argparse
